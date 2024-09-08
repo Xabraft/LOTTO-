@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotto+ - L'Expérience de Jeu du Futur</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#6C63FF">
+</head>
+<body>
+    <div class="top-left-info">
+        <div class="creator-info">
+            Créé par <span class="creator-name">XABRAFT</span>
+        </div>
+        <button id="downloadBtn" class="download-btn" aria-label="Télécharger l'application">
+            <span class="download-icon">
+                <span class="arrow"></span>
+                <span class="line"></span>
+            </span>
+            <span class="download-text">Installer</span>
+        </button>
+    </div>
+    
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round">
+                <span class="moon">🌙</span>
+                <span class="sun">☀️</span>
+            </div>
+        </label>
+    </div>
+    
+    <div class="container">
+        <h1>Lotto<span class="plus">+</span></h1>
+        <div class="buttons">
+            <button onclick="genererTirage('loto')">Loto</button>
+            <button onclick="genererTirage('euromillions')">Euromillions</button>
+        </div>
+        <div id="resultat"></div>
+    </div>
+    
+    <div class="prevention-message">
+        <p>Cette application est une simulation à des fins de divertissement uniquement. Jouez de manière responsable.</p>
+    </div>
+    
+    <div id="installBanner" style="display: none;">
+        <p>Installez Lotto+ sur votre ordinateur !</p>
+        <button id="installBtn">Installer</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

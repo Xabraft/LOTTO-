@@ -31,9 +31,6 @@ Lotto+ est une application web moderne et interactive de simulation de loterie. 
 ## Contribution
 Les contributions à ce projet sont les bienvenues. N'hésitez pas à forker le projet, créer une branche, commiter vos changements et ouvrir une pull request.
 
-## Licence
-Ce projet est sous licence [insérez le type de licence ici, par exemple MIT].
-
 ## Auteur
 Créé par XABRAFT
 
